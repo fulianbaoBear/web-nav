@@ -79,9 +79,6 @@ export function LoginDialog() {
               autoComplete="current-password"
             />
           </div>
-          <div className="text-sm text-muted-foreground">
-            默认账号: admin / admin123
-          </div>
           <Button type="submit" className="w-full">
             登录
           </Button>

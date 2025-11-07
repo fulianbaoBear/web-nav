@@ -9,8 +9,8 @@ interface AuthState {
 }
 
 // 默认用户名和密码（实际项目中应该使用后端验证）
-const DEFAULT_USERNAME = 'admin'
-const DEFAULT_PASSWORD = 'admin123'
+const DEFAULT_USERNAME = 'fulianbao'
+const DEFAULT_PASSWORD = '66706824flb'
 
 export const useAuthStore = create<AuthState>()(
   persist(
