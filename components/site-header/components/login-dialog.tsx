@@ -14,31 +14,43 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { useAuthStore } from "@/stores/useAuthStore"
-import { toast } from "sonner"
+import { useToast } from "@/components/ui/use-toast"
 
 export function LoginDialog() {
   const [open, setOpen] = useState(false)
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
   const { login } = useAuthStore()
+  const { toast } = useToast()
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
     
     if (!username || !password) {
-      toast.error("请输入用户名和密码")
+      toast({
+        title: "错误",
+        description: "请输入用户名和密码",
+        variant: "destructive"
+      })
       return
     }
 
     const success = login(username, password)
     
     if (success) {
-      toast.success("登录成功！")
+      toast({
+        title: "成功",
+        description: "登录成功！"
+      })
       setOpen(false)
       setUsername("")
       setPassword("")
     } else {
-      toast.error("用户名或密码错误")
+      toast({
+        title: "错误",
+        description: "用户名或密码错误",
+        variant: "destructive"
+      })
     }
   }
 
