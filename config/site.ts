@@ -31,19 +31,19 @@ export const NavData: NavData[] = [
     title: "网络效率工具",
     items: [
       {
-        icon: "https://hongxingyun.vip/favicon.ico",
+        icon: "https://images.chubaiai.com/Picgo/20251107102404217.webp",
         title: "红杏云🚀",
         desc: "10月222G，注册还送免费体验流量！",
         link: "https://hongxingyun.vip/web/"
       },
       {
-        icon: "https://www.sibker.com/favicon.ico",
+        icon: "https://images.chubaiai.com/Picgo/20251107102527801.webp",
         title: "白月光🚀",
         desc: "IPLC专线，适合流量较小情况使用！",
         link: "https://www.sibker.com/register?code=YU4Dei3K"
       },
       {
-        icon: "https://gorelay.net/favicon.ico",
+        icon: "https://images.chubaiai.com/Picgo/20251107102617898.webp",
         title: "Gorelay节点加速工具",
         desc: "用于静态住宅IP中转加速及vps部署的节点加速（链式代理）！",
         link: "https://gorelay.net/"
@@ -77,7 +77,7 @@ export const NavData: NavData[] = [
         link: "https://www.iping.cc/?utm-source=tool&utm-keyword=?3068"
       },
       {
-        icon: "https://ipjiance.com/favicon.ico",
+        icon: "https://images.chubaiai.com/Picgo/20251107102726417.webp",
         title: "TK运营IP评分站",
         desc: "检测TikTok IP风险度，如是否命中黑名单、是否为数据中心 IP",
         link: "https://ipjiance.com/"
@@ -101,16 +101,136 @@ export const NavData: NavData[] = [
         link: "https://whoer.net/zh"
       },
       {
-        icon: "https://scamalytics.com/favicon.ico",
+        icon: "https://images.chubaiai.com/Picgo/20251107103028564.webp",
         title: "IP纯净度检测",
         desc: "检测当前IP是否干净",
         link: "https://scamalytics.com/"
       },
       {
-        icon: "https://ip111.cn/favicon.ico",
+        icon: "https://images.chubaiai.com/Picgo/20251107103114077.webp",
         title: "IP111",
         desc: "快捷IP状态检测工具",
         link: "https://IP111.cn"
+      }
+    ]
+  },
+  {
+    title: "影视",
+    items: [
+      {
+        icon: "https://www.faviconextractor.com/favicon/decotv.120629.xyz?larger=true",
+        title: "decotv",
+        desc: "在线影视平台",
+        link: "https://decotv.120629.xyz/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/katelyatv.120629.xyz?larger=true",
+        title: "katelyatv",
+        desc: "在线影视平台",
+        link: "https://katelyatv.120629.xyz/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/tv.xugf.dpdns.org?larger=true",
+        title: "moontv",
+        desc: "在线影视平台",
+        link: "https://tv.xugf.dpdns.org/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/tv.clubai.dpdns.org?larger=true",
+        title: "OUONNKI",
+        desc: "在线影视平台",
+        link: "https://tv.clubai.dpdns.org/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/libretv.clubai.dpdns.org?larger=true",
+        title: "libretv",
+        desc: "在线影视平台",
+        link: "https://libretv.clubai.dpdns.org/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/55u21.art?larger=true",
+        title: "555影视",
+        desc: "在线影视平台",
+        link: "https://55u21.art/"
+      }
+    ]
+  },
+  {
+    title: "博客",
+    items: [
+      {
+        icon: "https://www.faviconextractor.com/favicon/blog.chubaiai.com?larger=true",
+        title: "楚白博客",
+        desc: "个人技术博客分享",
+        link: "https://blog.chubaiai.com/"
+      }
+    ]
+  },
+  {
+    title: "在线工具",
+    items: [
+      {
+        icon: "https://www.faviconextractor.com/favicon/pdf.chubai.online?larger=true",
+        title: "PDF工具",
+        desc: "在线PDF处理工具",
+        link: "https://pdf.chubai.online/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/tool.chubai.online?larger=true",
+        title: "IT工具箱",
+        desc: "开发者常用工具集合",
+        link: "https://tool.chubai.online/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/tools.120629.xyz?larger=true",
+        title: "工具站",
+        desc: "实用在线工具集合",
+        link: "https://tools.120629.xyz"
+      }
+    ]
+  },
+  {
+    title: "音乐",
+    items: [
+      {
+        icon: "https://www.faviconextractor.com/favicon/solara.120629.xyz?larger=true",
+        title: "Solara音乐",
+        desc: "在线音乐播放平台",
+        link: "https://solara.120629.xyz/"
+      }
+    ]
+  },
+  {
+    title: "新闻资讯",
+    items: [
+      {
+        icon: "https://www.faviconextractor.com/favicon/internetdaily.chubai.online?larger=true",
+        title: "互联网日报",
+        desc: "每日互联网热点新闻",
+        link: "https://internetdaily.chubai.online/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/zaobao.chubai.online?larger=true",
+        title: "AI早报",
+        desc: "每日AI资讯早报",
+        link: "https://zaobao.chubai.online/aizaobao/"
+      }
+    ]
+  },
+  {
+    title: "网盘搜索",
+    items: [
+      {
+        icon: "https://www.faviconextractor.com/favicon/panhub.chubai.online?larger=true",
+        title: "PanHub",
+        desc: "网盘资源搜索引擎",
+        link: "https://panhub.chubai.online/"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/search.chubai.online?larger=true",
+        title: "网盘搜索",
+        desc: "多平台网盘资源搜索",
+        link: "https://search.chubai.online/"
       }
     ]
   }
