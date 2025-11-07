@@ -64,6 +64,24 @@ export const NavData: NavData[] = [
         title: "甲骨文云VPS",
         desc: "甲骨文永久免费VPS",
         link: "https://www.oracle.com/cn/cloud/free/"
+      },
+      {
+        icon: "https://www.lcayun.com/favicon.ico",
+        title: "LCA云",
+        desc: "高性价比VPS服务商",
+        link: "https://www.lcayun.com/"
+      },
+      {
+        icon: "https://www.vmiss.com/favicon.ico",
+        title: "VMISS",
+        desc: "优质VPS云服务器提供商",
+        link: "https://www.vmiss.com/"
+      },
+      {
+        icon: "https://www.racknerd.com/favicon.ico",
+        title: "RackNerd",
+        desc: "美国老牌VPS服务商",
+        link: "https://www.racknerd.com/"
       }
     ]
   },
@@ -148,7 +166,7 @@ export const NavData: NavData[] = [
         link: "https://libretv.clubai.dpdns.org/"
       },
       {
-        icon: "https://www.faviconextractor.com/favicon/55u21.art?larger=true",
+        icon: "https://images.chubaiai.com/Picgo/20251107151741668.webp",
         title: "555影视",
         desc: "在线影视平台",
         link: "https://55u21.art/"
@@ -182,7 +200,7 @@ export const NavData: NavData[] = [
         link: "https://tool.chubai.online/"
       },
       {
-        icon: "https://www.faviconextractor.com/favicon/tools.120629.xyz?larger=true",
+        icon: "https://images.chubaiai.com/Picgo/20251107151833924.webp",
         title: "工具站",
         desc: "实用在线工具集合",
         link: "https://tools.120629.xyz"
@@ -204,14 +222,14 @@ export const NavData: NavData[] = [
     title: "新闻资讯",
     items: [
       {
-        icon: "https://www.faviconextractor.com/favicon/internetdaily.chubai.online?larger=true",
+        icon: "https://images.chubaiai.com/Picgo/20251107151925580.webp",
         title: "互联网日报",
         desc: "每日互联网热点新闻",
         link: "https://internetdaily.chubai.online/"
       },
       {
-        icon: "https://www.faviconextractor.com/favicon/zaobao.chubai.online?larger=true",
-        title: "AI早报",
+        icon: "https://images.chubaiai.com/Picgo/20251107152009158.webp",
+        title: "航运AI早报",
         desc: "每日AI资讯早报",
         link: "https://zaobao.chubai.online/aizaobao/"
       }
