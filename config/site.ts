@@ -72,7 +72,7 @@ export const NavData: NavData[] = [
         link: "https://www.lcayun.com/"
       },
       {
-        icon: "https://www.vmiss.com/favicon.ico",
+        icon: "https://images.chubaiai.com/Picgo/20251107153413331.webp",
         title: "VMISS",
         desc: "优质VPS云服务器提供商",
         link: "https://www.vmiss.com/"
@@ -204,6 +204,12 @@ export const NavData: NavData[] = [
         title: "工具站",
         desc: "实用在线工具集合",
         link: "https://tools.120629.xyz"
+      },
+      {
+        icon: "https://www.faviconextractor.com/favicon/translate.xugf.dpdns.org?larger=true",
+        title: "LibreTranslate 翻译",
+        desc: "开源的在线翻译工具",
+        link: "https://translate.xugf.dpdns.org/?source=auto&target=zh&q="
       }
     ]
   },
